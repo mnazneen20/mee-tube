@@ -40,7 +40,7 @@ export default function SingleVideo() {
   return (
     <div className='videopage'>
         <div className="videoplayer">
-            {videodetail && <ReactPlayer width="95%" height="80%" url={`https://www.youtube.com/watch?v=${videodetail.id}`} controls={true} />}
+            {videodetail && <ReactPlayer width="100%" height="80%" url={`https://www.youtube.com/watch?v=${videodetail.id}`} controls={true} />}
             {videodetail && 
             <div className="vidDets">
                 <h1 className="titlename giveMeEllipsis">
