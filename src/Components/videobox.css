@@ -1,0 +1,22 @@
+.videobox{
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 0.8rem;
+}
+.boximg{
+    width: 168px;
+    border-radius: 12px;
+    border: 1.2px solid #fd8e26;
+}
+.relatedDetails {
+    font-size: 0.85rem;
+}
+.title{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #001d38;
+}
+.channel{
+    color: #fd8e26;
+}

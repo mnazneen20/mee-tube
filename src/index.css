@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;800&display=swap');
+
 :root {
+  font-family: 'Public Sans', sans-serif;
   font-size: 16px;
+}
+body{
+  max-width: 1340px;
+  background-color: #ffe9d5;
 }
 * {
   margin: 0;
@@ -7,4 +14,26 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+a:link, a:visited, a:hover, a:active{
+  text-decoration: none;
+  color: #001d38;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffd2a9;
+  border-radius: 10px;
+}
+.giveMeEllipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  /* number of lines to show */
 }

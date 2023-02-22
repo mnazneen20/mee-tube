@@ -1,0 +1,56 @@
+.videopage{
+    height: 85vh;
+    padding: 2rem 2rem 0;
+    display: flex;
+}
+.videoplayer{
+    width: 60%;
+    height: 500px;
+}
+.relatedvideosection{
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.vidDets{
+    margin: 0.5rem 1rem 0 0;
+    color: #001d38;
+}
+h1.titlename{
+    font-size: 1.5rem;
+}
+.deets{
+    margin-top: 0.5rem;
+    color: #fd8e26;
+}
+@media(max-width: 950px){
+    .videopage{
+        height: auto;
+        flex-direction: column;
+        row-gap: 5rem;
+    }
+    .videoplayer {
+        width: 100%;
+    }
+    .relatedvideosection{
+        width: 80%;
+    }
+    h1.titlename {
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 560px){
+    .videopage{
+        padding: 3rem 1rem 0;
+    }
+    .relatedvideosection{
+        width: 100%;
+    }
+    .videoplayer{
+        height: 300px;
+    }
+}

@@ -1,0 +1,16 @@
+.searchpage{
+    margin: 2rem 1rem;
+}
+.searchpage>p{
+    text-align: center;
+}
+.serachresults{
+    width: 60%;
+    margin: 0 auto;
+}
+
+@media(max-width: 650px){
+    .serachresults{
+        width: 100%;
+    }
+}

@@ -1,0 +1,27 @@
+.videoCard{
+    width: 200px;
+}
+img.thumbnail{
+    width: 100%;
+    border-radius: 10px;
+    border: 1.2px solid #fd8e26;
+}
+.giveMeEllipsis {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2; /* number of lines to show */
+}
+.detailinfo{
+    font-size: 0.8rem;
+}
+
+@media(max-width: 512px) {
+    .videoCard{
+        width: 270px;
+    }
+    img.thumbnail{
+        width: 100%;
+    }
+}
