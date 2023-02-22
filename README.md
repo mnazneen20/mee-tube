@@ -1,6 +1,6 @@
 # meeTube
 
-Live demo [here](https://dulcet-swan-2b014e.netlify.app/).
+Live demo [here](https://wondrous-llama-6f13c6.netlify.app/videos/CtuFaOqiots).
 
 This is a video player website built using the [Youtube v3 API from RapidAPI](https://rapidapi.com/ytdlfree/api/youtube-v3-alternative)
 
